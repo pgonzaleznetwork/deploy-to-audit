@@ -51,6 +51,14 @@ salesforce.Flow NetSuite_Flow {
     object = salesforce.Account
     recordTriggerType = "Create"
     triggerType = "RecordBeforeSave"
+    filterLogic = "and"
+    filters = {
+      field = salesforce.Account.field.Active__c
+      operator = "EqualTo"
+      value = {
+        booleanValue = true
+      }
+    }
   }
   status = "Active"
   _generated_dependencies = [
