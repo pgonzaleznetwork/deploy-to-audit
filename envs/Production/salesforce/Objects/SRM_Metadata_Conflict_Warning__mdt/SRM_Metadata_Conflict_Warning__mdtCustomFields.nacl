@@ -1,0 +1,59 @@
+type salesforce.SRM_Metadata_Conflict_Warning__mdt {
+  salesforce.TextArea Friendly_Message__c {
+    apiName = "SRM_Metadata_Conflict_Warning__mdt.Friendly_Message__c"
+    label = "Friendly Message"
+    createable = false
+    updateable = false
+    queryable = true
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    _hidden_value = true
+  }
+  salesforce.TextArea Warning__c {
+    apiName = "SRM_Metadata_Conflict_Warning__mdt.Warning__c"
+    label = "Warning"
+    createable = false
+    updateable = false
+    queryable = true
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    _hidden_value = true
+  }
+  salesforce.MetadataRelationship SRM_Object__c {
+    apiName = "SRM_Metadata_Conflict_Warning__mdt.SRM_Object__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "SRM Object"
+    referenceTo = [
+      "EntityDefinition",
+    ]
+    relationshipLabel = "SRM_Metadata_Conflict_Warnings"
+    relationshipName = "SRM_Metadata_Conflict_Warnings"
+    unique = "false"
+    length = 255
+    createable = false
+    updateable = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.MetadataRelationship SRM_Field__c {
+    apiName = "SRM_Metadata_Conflict_Warning__mdt.SRM_Field__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "SRM Field"
+    metadataRelationshipControllingField = "SRM_Metadata_Conflict_Warning__mdt.SRM_Object__c"
+    referenceTo = [
+      "FieldDefinition",
+    ]
+    relationshipLabel = "SRM_Metadata_Conflict_Warnings"
+    relationshipName = "SRM_Metadata_Conflict_Warnings"
+    unique = "false"
+    length = 255
+    createable = false
+    updateable = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+}

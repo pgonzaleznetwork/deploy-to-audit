@@ -1,0 +1,18 @@
+salesforce.AutoResponseRules Case {
+  fullName = "Case"
+  autoResponseRule = {
+    fullName = "All"
+    active = true
+    ruleEntry = {
+      criteriaItems = [
+        {
+          field = salesforce.Case.field.reopenDate__c
+          operation = "equals"
+        },
+      ]
+      senderEmail = "pgonzaleznetwork@gmail.com"
+      senderName = "pablo"
+      template = "unfiled$public/CommunityChangePasswordEmailTemplate"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+type salesforce.SRM_Package_XML_Setting__mdt {
+  serviceid Id {
+    apiName = "SRM_Package_XML_Setting__mdt.Id"
+    label = "Custom Metadata Record ID"
+    queryable = true
+    _hidden_value = true
+    updateable = false
+    createable = false
+  }
+  salesforce.Text DeveloperName {
+    apiName = "SRM_Package_XML_Setting__mdt.DeveloperName"
+    label = "Custom Metadata Record Name"
+    _required = true
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text MasterLabel {
+    apiName = "SRM_Package_XML_Setting__mdt.MasterLabel"
+    label = "Label"
+    _required = true
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text NamespacePrefix {
+    apiName = "SRM_Package_XML_Setting__mdt.NamespacePrefix"
+    label = "Namespace Prefix"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 15
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text Label {
+    apiName = "SRM_Package_XML_Setting__mdt.Label"
+    label = "Label"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text QualifiedApiName {
+    apiName = "SRM_Package_XML_Setting__mdt.QualifiedApiName"
+    label = "Qualified API Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 70
+    queryable = true
+    _hidden_value = true
+  }
+}

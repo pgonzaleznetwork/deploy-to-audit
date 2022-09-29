@@ -1,0 +1,7 @@
+salesforce.ServiceChannel Omni_Setup_Flow_Cases {
+  fullName = "Omni_Setup_Flow_Cases"
+  doesMinimizeWidgetOnAccept = false
+  hasAutoAcceptEnabled = false
+  label = "Omni Setup Flow Cases"
+  relatedEntityType = "Case"
+}

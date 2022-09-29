@@ -1,0 +1,67 @@
+type salesforce.Field_referencing__mdt {
+  serviceid Id {
+    apiName = "Field_referencing__mdt.Id"
+    label = "Custom Metadata Record ID"
+    queryable = true
+    _hidden_value = true
+    updateable = false
+    createable = false
+  }
+  salesforce.Text DeveloperName {
+    apiName = "Field_referencing__mdt.DeveloperName"
+    label = "Custom Metadata Record Name"
+    _required = true
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text MasterLabel {
+    apiName = "Field_referencing__mdt.MasterLabel"
+    label = "Label"
+    _required = true
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text NamespacePrefix {
+    apiName = "Field_referencing__mdt.NamespacePrefix"
+    label = "Namespace Prefix"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 15
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text Label {
+    apiName = "Field_referencing__mdt.Label"
+    label = "Label"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text QualifiedApiName {
+    apiName = "Field_referencing__mdt.QualifiedApiName"
+    label = "Qualified API Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 70
+    queryable = true
+    _hidden_value = true
+  }
+}

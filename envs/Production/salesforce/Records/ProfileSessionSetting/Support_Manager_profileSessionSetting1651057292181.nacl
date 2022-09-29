@@ -1,0 +1,9 @@
+salesforce.ProfileSessionSetting Support_Manager_profileSessionSetting1651057292181 {
+  fullName = "Support_Manager_profileSessionSetting1651057292181"
+  externalCommunityUserIdentityVerif = false
+  forceLogout = false
+  profile = "sales development manager"
+  sessionPersistence = false
+  sessionTimeout = 0
+  sessionTimeoutWarning = false
+}

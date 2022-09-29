@@ -1,0 +1,41 @@
+salesforce.CustomMetadata nebc__Trigger_Handler_Product_Group_Name@uuuvuu {
+  label = "Product Group Name"
+  protected = false
+  fullName = "nebc__Trigger_Handler.Product_Group_Name"
+  values = [
+    {
+      field = "class_to_call__c"
+    },
+    {
+      field = "nebc__Active__c"
+      value = "true"
+      type = "xsd:boolean"
+    },
+    {
+      field = "nebc__Apex_Class__c"
+      value = "triggerdmlsupport"
+      type = "xsd:string"
+    },
+    {
+      field = "nebc__Description__c"
+    },
+    {
+      field = "nebc__Event__c"
+      value = "AFTER_DELETE"
+      type = "xsd:string"
+    },
+    {
+      field = "nebc__Order__c"
+      value = "0"
+      type = "xsd:double"
+    },
+    {
+      field = "nebc__Parameters__c"
+    },
+    {
+      field = "nebc__SObject__c"
+      value = "any object"
+      type = "xsd:string"
+    },
+  ]
+}

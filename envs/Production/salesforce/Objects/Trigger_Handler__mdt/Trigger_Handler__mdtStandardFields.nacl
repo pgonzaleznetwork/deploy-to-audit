@@ -1,0 +1,67 @@
+type salesforce.Trigger_Handler__mdt {
+  serviceid Id {
+    apiName = "Trigger_Handler__mdt.Id"
+    label = "Custom Metadata Record ID"
+    queryable = true
+    _hidden_value = true
+    updateable = false
+    createable = false
+  }
+  salesforce.Text DeveloperName {
+    apiName = "Trigger_Handler__mdt.DeveloperName"
+    label = "Custom Metadata Record Name"
+    _required = true
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text MasterLabel {
+    apiName = "Trigger_Handler__mdt.MasterLabel"
+    label = "Label"
+    _required = true
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text NamespacePrefix {
+    apiName = "Trigger_Handler__mdt.NamespacePrefix"
+    label = "Namespace Prefix"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 15
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text Label {
+    apiName = "Trigger_Handler__mdt.Label"
+    label = "Label"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 40
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text QualifiedApiName {
+    apiName = "Trigger_Handler__mdt.QualifiedApiName"
+    label = "Qualified API Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 70
+    queryable = true
+    _hidden_value = true
+  }
+}

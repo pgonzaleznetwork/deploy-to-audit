@@ -1,0 +1,17 @@
+salesforce.CustomMetadata Lead_To_Oppty_Mapping_Industry@uuuv {
+  label = "Industry"
+  protected = false
+  fullName = "Lead_To_Oppty_Mapping.Industry"
+  values = [
+    {
+      field = "Lead_Field__c"
+      value = "Industry"
+      type = "xsd:string"
+    },
+    {
+      field = "Opportunity_Field__c"
+      value = "Industry"
+      type = "xsd:string"
+    },
+  ]
+}

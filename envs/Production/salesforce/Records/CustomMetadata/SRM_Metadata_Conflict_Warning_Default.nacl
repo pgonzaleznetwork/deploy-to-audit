@@ -1,0 +1,27 @@
+salesforce.CustomMetadata SRM_Metadata_Conflict_Warning_Default@uuuv {
+  label = "Default"
+  protected = false
+  fullName = "SRM_Metadata_Conflict_Warning.Default"
+  values = [
+    {
+      field = "Friendly_Message__c"
+      value = "No Metadata Conflicts found."
+      type = "xsd:string"
+    },
+    {
+      field = "SRM_Field__c"
+      value = "CustomerPriority__c"
+      type = "xsd:string"
+    },
+    {
+      field = "SRM_Object__c"
+      value = "Account"
+      type = "xsd:string"
+    },
+    {
+      field = "Warning__c"
+      value = "METADATA CONFLICTS FOUND. REVIEW THE RELEVANT METADATA RELATED LIST FOR DETAILS."
+      type = "xsd:string"
+    },
+  ]
+}

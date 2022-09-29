@@ -1,0 +1,34 @@
+salesforce.LightningPage Incident_Record_Page {
+  fullName = "Incident_Record_Page"
+  flexiPageRegions = [
+    {
+      name = "header"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "force:detailPanel"
+            identifier = "force_detailPanel"
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+  ]
+  masterLabel = "Incident Record Page"
+  sobjectType = "Zendesk_Ticket__c"
+  template = {
+    name = "flexipage:recordHomeSimpleViewTemplate"
+    properties = {
+      name = "enablePageActionConfig"
+      value = "false"
+    }
+  }
+  type = "RecordPage"
+  _parent = [
+    salesforce.Zendesk_Ticket__c,
+  ]
+}

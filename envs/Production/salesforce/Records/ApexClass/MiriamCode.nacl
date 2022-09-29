@@ -1,0 +1,6 @@
+salesforce.ApexClass MiriamCode {
+  apiVersion = 53
+  status = "Active"
+  fullName = "MiriamCode"
+  content = file("salesforce/Records/ApexClass/MiriamCode.cls")
+}

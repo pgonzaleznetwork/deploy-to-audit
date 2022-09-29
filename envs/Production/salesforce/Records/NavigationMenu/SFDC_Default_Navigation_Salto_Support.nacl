@@ -1,0 +1,13 @@
+salesforce.NavigationMenu SFDC_Default_Navigation_Salto_Support@uuus {
+  fullName = "SFDC_Default_Navigation_Salto Support"
+  container = "Salto Support"
+  containerType = "Network"
+  label = "Default Navigation"
+  navigationMenuItem = {
+    label = "Topics"
+    position = 0
+    publiclyAvailable = true
+    target = "ShowMoreTopics"
+    type = "NavigationalTopic"
+  }
+}

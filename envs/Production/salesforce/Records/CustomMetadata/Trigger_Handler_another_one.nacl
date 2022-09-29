@@ -1,0 +1,12 @@
+salesforce.CustomMetadata Trigger_Handler_another_one@uvu {
+  label = "another one"
+  protected = false
+  fullName = "Trigger_Handler.another_one"
+  values = [
+    {
+      field = "Class_Name__c"
+      value = "triggerdmlsupport"
+      type = "xsd:string"
+    },
+  ]
+}
