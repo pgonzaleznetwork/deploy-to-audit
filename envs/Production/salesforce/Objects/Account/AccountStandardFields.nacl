@@ -106,6 +106,9 @@ type salesforce.Account {
     length = 40
     queryable = true
     trackFeedHistory = false
+    businessStatus = "Active"
+    description = "New description of account number"
+    inlineHelpText = "And this is the help text"
   }
   salesforce.Url Website {
     apiName = "Account.Website"

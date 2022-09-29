@@ -17,5 +17,10 @@ salesforce.StandardValueSet AccountRating {
       default = false
       label = "Cold"
     },
+    {
+      fullName = "Lukewarm"
+      default = false
+      label = "Lukewarm"
+    },
   ]
 }
