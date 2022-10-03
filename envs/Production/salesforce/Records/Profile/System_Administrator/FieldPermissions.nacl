@@ -1,0 +1,730 @@
+salesforce.Profile Admin {
+  fieldPermissions = {
+    Account = {
+      AccountNumber = "ReadWrite"
+      AccountSource = "ReadWrite"
+      Active__c = "ReadWrite"
+      AnnualRevenue = "ReadWrite"
+      Average_Age__c = "ReadWrite"
+      BillingAddress = "ReadWrite"
+      CleanStatus = "ReadOnly"
+      CustomerPriority__c = "ReadWrite"
+      DandbCompanyId = "ReadOnly"
+      Description = "ReadWrite"
+      DunsNumber = "ReadOnly"
+      Expiry_Date__c = "ReadWrite"
+      Fax = "ReadWrite"
+      Gerry__c = "ReadWrite"
+      Industry = "ReadWrite"
+      Industry_Detail__c = "ReadOnly"
+      Integration_Status__c = "ReadWrite"
+      Jigsaw = "ReadWrite"
+      Long_Description__c = "ReadWrite"
+      My_Broken_Picklist__c = "ReadWrite"
+      My_Date_Time__c = "ReadWrite"
+      NaicsCode = "ReadOnly"
+      NaicsDesc = "ReadOnly"
+      Name_Formula__c = "ReadOnly"
+      NetSuite_Id__c = "ReadWrite"
+      New_field__c = "ReadWrite"
+      NumberOfEmployees = "ReadWrite"
+      NumberofLocations__c = "ReadWrite"
+      Oracle_Id__c = "ReadWrite"
+      Ownership = "ReadWrite"
+      ParentId = "ReadWrite"
+      Phone = "ReadWrite"
+      Priority_Formula__c = "ReadOnly"
+      Rating = "ReadWrite"
+      SLAExpirationDate__c = "ReadWrite"
+      SLASerialNumber__c = "ReadWrite"
+      SLA__c = "ReadWrite"
+      Salto_Employee__c = "ReadWrite"
+      ShippingAddress = "ReadWrite"
+      Sic = "ReadWrite"
+      SicDesc = "ReadWrite"
+      Simple_Text_Formula__c = "ReadOnly"
+      Site = "ReadWrite"
+      TickerSymbol = "ReadWrite"
+      Tradestyle = "ReadOnly"
+      Type = "ReadWrite"
+      UI_Mode__c = "ReadWrite"
+      UpsellOpportunity__c = "ReadWrite"
+      Users_Formula__c = "ReadOnly"
+      Users__c = "ReadWrite"
+      Website = "ReadWrite"
+      YearStarted = "ReadOnly"
+      not_used__c = "NoAccess"
+      oracleId__c = "ReadWrite"
+      oracleUserEmail__c = "ReadWrite"
+      original_lead__c = "ReadWrite"
+      really_not_used__c = "ReadWrite"
+    }
+    Asset = {
+      AccountId = "ReadWrite"
+      AssetLevel = "ReadWrite"
+      AssetProvidedById = "ReadWrite"
+      AssetServicedById = "ReadWrite"
+      ConsequenceOfFailure = "NoAccess"
+      ContactId = "ReadWrite"
+      CurrentAmount = "ReadWrite"
+      CurrentLifecycleEndDate = "ReadWrite"
+      CurrentMrr = "ReadWrite"
+      CurrentQuantity = "ReadWrite"
+      Description = "ReadWrite"
+      DigitalAssetStatus = "NoAccess"
+      ExternalIdentifier = "NoAccess"
+      HasLifecycleManagement = "ReadWrite"
+      InstallDate = "ReadWrite"
+      IsCompetitorProduct = "ReadWrite"
+      IsInternal = "ReadWrite"
+      LifecycleEndDate = "ReadWrite"
+      LifecycleStartDate = "ReadWrite"
+      LocationId = "NoAccess"
+      ManufactureDate = "NoAccess"
+      Price = "ReadWrite"
+      Product2Id = "ReadWrite"
+      ProductCode = "ReadOnly"
+      ProductDescription = "NoAccess"
+      ProductFamily = "NoAccess"
+      PurchaseDate = "ReadWrite"
+      Quantity = "ReadWrite"
+      SerialNumber = "ReadWrite"
+      Status = "ReadWrite"
+      StatusReason = "NoAccess"
+      StockKeepingUnit = "ReadWrite"
+      TotalLifecycleAmount = "ReadWrite"
+      UsageEndDate = "ReadWrite"
+      Uuid = "NoAccess"
+    }
+    AssetRelationship = {
+      RelationshipType = "ReadWrite"
+    }
+    AuthorizationForm = {
+      DefaultAuthFormTextId = "ReadWrite"
+      EffectiveFromDate = "ReadWrite"
+      EffectiveToDate = "ReadWrite"
+      IsSignatureRequired = "ReadWrite"
+      RevisionNumber = "ReadWrite"
+    }
+    AuthorizationFormConsent = {
+      DocumentVersionId = "ReadWrite"
+      Status = "ReadWrite"
+    }
+    AuthorizationFormText = {
+      ContentDocumentId = "ReadWrite"
+      FullAuthorizationFormUrl = "ReadWrite"
+      Locale = "ReadWrite"
+      SummaryAuthFormText = "ReadWrite"
+    }
+    BoatReview__c = {
+      Comment__c = "ReadWrite"
+      Rating__c = "ReadWrite"
+    }
+    Boat__c = {
+      BoatType__c = "ReadWrite"
+      Boat_Image__c = "ReadWrite"
+      Description__c = "ReadWrite"
+      Geolocation__c = "ReadWrite"
+      Length__c = "ReadWrite"
+      Picture__c = "ReadWrite"
+      Price__c = "ReadWrite"
+      Year_Built__c = "ReadWrite"
+    }
+    BusinessBrand = {
+      OrgId = "ReadWrite"
+      ParentId = "ReadWrite"
+    }
+    Campaign = {
+      ActualCost = "ReadWrite"
+      AmountAllOpportunities = "ReadWrite"
+      AmountWonOpportunities = "ReadWrite"
+      BudgetedCost = "ReadWrite"
+      CampaignImageId = "ReadWrite"
+      Description = "ReadWrite"
+      EndDate = "ReadWrite"
+      ExpectedResponse = "ReadWrite"
+      ExpectedRevenue = "ReadWrite"
+      HierarchyActualCost = "NoAccess"
+      HierarchyAmountAllOpportunities = "NoAccess"
+      HierarchyAmountWonOpportunities = "NoAccess"
+      HierarchyBudgetedCost = "NoAccess"
+      HierarchyExpectedRevenue = "NoAccess"
+      HierarchyNumberOfContacts = "NoAccess"
+      HierarchyNumberOfConvertedLeads = "NoAccess"
+      HierarchyNumberOfLeads = "NoAccess"
+      HierarchyNumberOfOpportunities = "NoAccess"
+      HierarchyNumberOfResponses = "NoAccess"
+      HierarchyNumberOfWonOpportunities = "NoAccess"
+      HierarchyNumberSent = "NoAccess"
+      IsActive = "ReadWrite"
+      NumberOfContacts = "ReadWrite"
+      NumberOfConvertedLeads = "ReadWrite"
+      NumberOfLeads = "ReadWrite"
+      NumberOfOpportunities = "ReadWrite"
+      NumberOfResponses = "ReadWrite"
+      NumberOfWonOpportunities = "ReadWrite"
+      NumberSent = "ReadWrite"
+      ParentId = "ReadWrite"
+      StartDate = "ReadWrite"
+      Status = "ReadWrite"
+      Type = "ReadWrite"
+    }
+    Case = {
+      AccountId = "ReadOnly"
+      AssetId = "ReadWrite"
+      BusinessHoursId = "NoAccess"
+      ClosedDate = "ReadOnly"
+      ClosedOnCreate = "NoAccess"
+      ContactId = "ReadWrite"
+      CustomDate__c = "ReadWrite"
+      Description = "ReadWrite"
+      EngineeringReqNumber__c = "ReadWrite"
+      IsClosedOnCreate = "NoAccess"
+      IsEscalated = "ReadOnly"
+      Origin = "ReadWrite"
+      Original_Deal__c = "ReadWrite"
+      ParentId = "ReadWrite"
+      PotentialLiability__c = "ReadWrite"
+      Priority = "ReadWrite"
+      Product__c = "ReadWrite"
+      Reason = "ReadWrite"
+      SLAViolation__c = "ReadWrite"
+      Subject = "ReadWrite"
+      SuppliedCompany = "ReadOnly"
+      SuppliedEmail = "ReadOnly"
+      SuppliedName = "ReadOnly"
+      SuppliedPhone = "ReadOnly"
+      Target_Email__c = "ReadOnly"
+      Type = "ReadWrite"
+      indicentResponseEmail__c = "ReadWrite"
+      new_date_field__c = "ReadWrite"
+      reopenDate__c = "ReadWrite"
+      GHO__c = "ReadWrite"
+    }
+    Center__c = {
+      Lookup_Field_to_Parent_Obj__c = "ReadWrite"
+      Lookup_Field_to_Self__c = "ReadWrite"
+      My_text_field__c = "ReadWrite"
+    }
+    CommSubscription = {
+      DataUsePurposeId = "NoAccess"
+      IsDefault = "NoAccess"
+    }
+    CommSubscriptionConsent = {
+      EffectiveToDate = "NoAccess"
+    }
+    CommSubscriptionTiming = {
+      Offset = "NoAccess"
+      PreferredTimeEnd = "NoAccess"
+      PreferredTimeStart = "NoAccess"
+      PreferredTimeZone = "NoAccess"
+    }
+    ConsumptionRate = {
+      Description = "ReadWrite"
+      UpperBound = "ReadWrite"
+    }
+    ConsumptionSchedule = {
+      Description = "ReadWrite"
+      IsActive = "ReadWrite"
+      MatchingAttribute = "ReadWrite"
+      UnitOfMeasure = "ReadWrite"
+    }
+    Contact = {
+      AccountId = "ReadWrite"
+      Age__c = "ReadOnly"
+      AssistantName = "ReadWrite"
+      AssistantPhone = "ReadWrite"
+      Birthdate = "ReadWrite"
+      CleanStatus = "ReadOnly"
+      Department = "ReadWrite"
+      Description = "ReadWrite"
+      DoNotCall = "NoAccess"
+      Email = "ReadWrite"
+      Fax = "ReadWrite"
+      HasOptedOutOfEmail = "NoAccess"
+      HasOptedOutOfFax = "NoAccess"
+      HomePhone = "ReadWrite"
+      Jigsaw = "ReadWrite"
+      Languages__c = "ReadWrite"
+      LeadSource = "ReadWrite"
+      Level__c = "ReadWrite"
+      MailingAddress = "ReadWrite"
+      MobilePhone = "ReadWrite"
+      OtherAccountId__c = "ReadWrite"
+      OtherAddress = "ReadWrite"
+      OtherPhone = "ReadWrite"
+      Phone = "ReadWrite"
+      ReportsToId = "ReadWrite"
+      Title = "ReadWrite"
+    }
+    ContactPointAddress = {
+      ActiveFromDate = "ReadWrite"
+      ActiveToDate = "ReadWrite"
+      Address = "ReadWrite"
+      AddressType = "ReadWrite"
+      BestTimeToContactEndTime = "ReadWrite"
+      BestTimeToContactStartTime = "ReadWrite"
+      BestTimeToContactTimezone = "ReadWrite"
+      ContactPointPhoneId = "ReadWrite"
+      IsDefault = "ReadWrite"
+      IsPrimary = "ReadWrite"
+      ParentId = "ReadWrite"
+      PreferenceRank = "ReadWrite"
+      UsageType = "ReadWrite"
+    }
+    ContactPointConsent = {
+      ContactPointTypeConsentId = "ReadWrite"
+      DataUsePurposeId = "ReadWrite"
+      DoubleConsentCaptureDate = "ReadWrite"
+      EffectiveFrom = "ReadWrite"
+      EffectiveTo = "ReadWrite"
+      EngagementChannelTypeId = "NoAccess"
+    }
+    ContactPointEmail = {
+      ActiveFromDate = "ReadWrite"
+      ActiveToDate = "ReadWrite"
+      BestTimeToContactEndTime = "ReadWrite"
+      BestTimeToContactStartTime = "ReadWrite"
+      BestTimeToContactTimezone = "ReadWrite"
+      EmailDomain = "ReadWrite"
+      EmailLatestBounceDateTime = "ReadWrite"
+      EmailLatestBounceReasonText = "ReadWrite"
+      EmailMailBox = "ReadWrite"
+      IsPrimary = "ReadWrite"
+      ParentId = "ReadWrite"
+      PreferenceRank = "NoAccess"
+      UsageType = "NoAccess"
+    }
+    ContactPointPhone = {
+      ActiveFromDate = "ReadWrite"
+      AreaCode = "ReadWrite"
+      BestTimeToContactEndTime = "ReadWrite"
+      BestTimeToContactStartTime = "ReadWrite"
+      BestTimeToContactTimezone = "ReadWrite"
+      ExtensionNumber = "ReadWrite"
+      FormattedInternationalPhoneNumber = "ReadWrite"
+      FormattedNationalPhoneNumber = "ReadWrite"
+      IsBusinessPhone = "ReadWrite"
+      IsFaxCapable = "ReadWrite"
+      IsPersonalPhone = "ReadWrite"
+      IsPrimary = "ReadWrite"
+      IsSmsCapable = "ReadWrite"
+      ParentId = "ReadWrite"
+      PhoneType = "ReadWrite"
+      PreferenceRank = "NoAccess"
+      UsageType = "NoAccess"
+    }
+    ContactPointTypeConsent = {
+      DataUsePurposeId = "ReadWrite"
+      DoubleConsentCaptureDate = "ReadWrite"
+      EffectiveFrom = "ReadWrite"
+      EffectiveTo = "ReadWrite"
+      EngagementChannelTypeId = "NoAccess"
+    }
+    Contract = {
+      ActivatedById = "ReadOnly"
+      ActivatedDate = "ReadOnly"
+      BillingAddress = "ReadWrite"
+      CompanySignedDate = "ReadWrite"
+      CompanySignedId = "ReadWrite"
+      ContractTerm = "ReadWrite"
+      CustomerSignedDate = "ReadWrite"
+      CustomerSignedId = "ReadWrite"
+      CustomerSignedTitle = "ReadWrite"
+      Description = "ReadWrite"
+      EndDate = "ReadOnly"
+      Name = "NoAccess"
+      OwnerExpirationNotice = "ReadWrite"
+      Pricebook2Id = "ReadWrite"
+      ShippingAddress = "NoAccess"
+      SpecialTerms = "ReadWrite"
+      StartDate = "ReadWrite"
+    }
+    Customer = {
+      CustomerStatusType = "ReadWrite"
+      TotalLifeTimeValue = "ReadWrite"
+    }
+    DataUseLegalBasis = {
+      Description = "ReadWrite"
+      Source = "ReadWrite"
+    }
+    DataUsePurpose = {
+      Description = "ReadWrite"
+      IsMaintainablePerContactPoint = "ReadWrite"
+      IsMaintainablePerParty = "ReadWrite"
+      IsMaintainablePerType = "ReadWrite"
+      LegalBasisId = "ReadWrite"
+    }
+    EngagementChannelType = {
+      ContactPointType = "NoAccess"
+    }
+    Event = {
+      Description = "ReadWrite"
+      IsAllDayEvent = "ReadWrite"
+      IsVisibleInSelfService = "NoAccess"
+      Location = "ReadWrite"
+      Type = "NoAccess"
+      WhatId = "ReadWrite"
+      WhoId = "ReadWrite"
+    }
+    Field_referencing__mdt = {
+      Related_Field__c = "NoAccess"
+      Related_Object__c = "NoAccess"
+      second_field__c = "NoAccess"
+    }
+    Idea = {
+      Attachment = "NoAccess"
+      Status = "ReadWrite"
+    }
+    Individual = {
+      BirthDate = "ReadWrite"
+      CanStorePiiElsewhere = "ReadWrite"
+      ChildrenCount = "ReadWrite"
+      ConsumerCreditScore = "ReadWrite"
+      ConsumerCreditScoreProviderName = "ReadWrite"
+      ConvictionsCount = "ReadWrite"
+      DeathDate = "ReadWrite"
+      HasOptedOutGeoTracking = "ReadWrite"
+      HasOptedOutProcessing = "ReadWrite"
+      HasOptedOutProfiling = "ReadWrite"
+      HasOptedOutSolicit = "ReadWrite"
+      HasOptedOutTracking = "ReadWrite"
+      IndividualsAge = "ReadWrite"
+      InfluencerRating = "ReadWrite"
+      IsHomeOwner = "ReadWrite"
+      MasterRecordId = "ReadWrite"
+      MilitaryService = "ReadWrite"
+      Occupation = "ReadWrite"
+      SendIndividualData = "ReadWrite"
+      ShouldForget = "ReadWrite"
+      Website = "ReadWrite"
+    }
+    Lead = {
+      Address = "ReadWrite"
+      AnnualRevenue = "ReadWrite"
+      CleanStatus = "ReadOnly"
+      CompanyDunsNumber = "ReadOnly"
+      Connected_Org__c = "ReadWrite"
+      CurrentGenerators__c = "ReadWrite"
+      DandbCompanyId = "ReadOnly"
+      Description = "ReadWrite"
+      DoNotCall = "NoAccess"
+      Email = "ReadWrite"
+      Fax = "ReadWrite"
+      HasOptedOutOfEmail = "NoAccess"
+      HasOptedOutOfFax = "NoAccess"
+      Industry = "ReadWrite"
+      Jigsaw = "ReadWrite"
+      LastTransferDate = "NoAccess"
+      LeadSource = "ReadWrite"
+      MobilePhone = "ReadWrite"
+      NumberOfEmployees = "ReadWrite"
+      NumberofLocations__c = "ReadWrite"
+      PartnerAccountId = "NoAccess"
+      Phone = "ReadWrite"
+      Primary__c = "ReadWrite"
+      ProductInterest__c = "ReadWrite"
+      Rating = "ReadWrite"
+      SICCode__c = "ReadWrite"
+      Title = "ReadWrite"
+      Website = "ReadWrite"
+    }
+    Lead_To_Oppty_Mapping__mdt = {
+      Lead_Field__c = "NoAccess"
+      Opportunity_Field__c = "NoAccess"
+    }
+    LegalEntity = {
+      CompanyName = "ReadWrite"
+      Description = "ReadWrite"
+      LegalEntityAddress = "ReadWrite"
+      Status = "ReadWrite"
+    }
+    Location = {
+      CloseDate = "NoAccess"
+      ConstructionEndDate = "NoAccess"
+      ConstructionStartDate = "NoAccess"
+      Description = "NoAccess"
+      DrivingDirections = "NoAccess"
+      Location = "NoAccess"
+      LocationLevel = "NoAccess"
+      OpenDate = "NoAccess"
+      ParentLocationId = "NoAccess"
+      PossessionDate = "NoAccess"
+      RemodelEndDate = "NoAccess"
+      RemodelStartDate = "NoAccess"
+      TimeZone = "NoAccess"
+    }
+    Opportunity = {
+      AccountId = "ReadWrite"
+      Account_Priority__c = "ReadOnly"
+      Amount = "ReadWrite"
+      CampaignId = "ReadWrite"
+      ContractId = "NoAccess"
+      CurrentGenerators__c = "ReadWrite"
+      DeliveryInstallationStatus__c = "ReadWrite"
+      Description = "ReadWrite"
+      ExpectedRevenue = "ReadWrite"
+      IsPrivate = "ReadWrite"
+      LeadSource = "ReadWrite"
+      MainCompetitors__c = "ReadWrite"
+      My_Lookup_Field__c = "ReadWrite"
+      My_Picklist_Field__c = "ReadWrite"
+      NextStep = "ReadWrite"
+      OrderNumber__c = "ReadWrite"
+      PartnerAccountId = "NoAccess"
+      Partner_Account__c = "ReadWrite"
+      Probability = "ReadWrite"
+      TotalOpportunityQuantity = "ReadWrite"
+      TrackingNumber__c = "ReadWrite"
+      Type = "ReadWrite"
+      account_name__c = "ReadOnly"
+    }
+    OpportunityLineItem = {
+      Description = "ReadWrite"
+      Discount = "NoAccess"
+      ListPrice = "ReadOnly"
+      ProductCode = "ReadOnly"
+      ServiceDate = "ReadWrite"
+      Subtotal = "NoAccess"
+      TotalPrice = "ReadWrite"
+    }
+    Order = {
+      ActivatedById = "ReadOnly"
+      ActivatedDate = "ReadOnly"
+      BillToContactId = "ReadWrite"
+      BillingAddress = "ReadWrite"
+      CompanyAuthorizedById = "ReadWrite"
+      CompanyAuthorizedDate = "ReadWrite"
+      ContractEndDate = "ReadOnly"
+      ContractName = "ReadOnly"
+      CustomerAuthorizedById = "ReadWrite"
+      CustomerAuthorizedDate = "ReadWrite"
+      Description = "ReadWrite"
+      Name = "ReadWrite"
+      OpportunityId = "NoAccess"
+      OrderReferenceNumber = "ReadWrite"
+      PoDate = "ReadWrite"
+      PoNumber = "ReadWrite"
+      ShipToContactId = "ReadWrite"
+      ShippingAddress = "ReadWrite"
+      TotalAmount = "ReadOnly"
+      Type = "ReadWrite"
+    }
+    OrderItem = {
+      Description = "ReadWrite"
+      EndDate = "ReadWrite"
+      ListPrice = "ReadOnly"
+      ProductCode = "ReadOnly"
+      ServiceDate = "ReadWrite"
+    }
+    PartnerFundAllocation = {
+      Description = "ReadWrite"
+    }
+    PartnerFundClaim = {
+      Description = "ReadWrite"
+      Status = "ReadWrite"
+    }
+    PartnerFundRequest = {
+      Activity = "ReadWrite"
+      AllocationId = "ReadWrite"
+      Amount = "ReadWrite"
+      BudgetId = "ReadWrite"
+      CampaignId = "ReadWrite"
+      Description = "ReadWrite"
+      DesiredOutcome = "ReadWrite"
+      Status = "ReadWrite"
+    }
+    PartnerMarketingBudget = {
+      Description = "ReadWrite"
+      ParentMdfBudgetId = "NoAccess"
+    }
+    PartyConsent = {
+      DoubleConsentCaptureDate = "NoAccess"
+      EffectiveFrom = "NoAccess"
+      EffectiveTo = "NoAccess"
+    }
+    Product2 = {
+      Description = "ReadWrite"
+      DisplayUrl = "ReadWrite"
+      ExternalDataSourceId = "ReadWrite"
+      ExternalId = "ReadWrite"
+      Family = "ReadWrite"
+      ProductCode = "ReadWrite"
+      QuantityUnitOfMeasure = "ReadWrite"
+      StockKeepingUnit = "ReadWrite"
+    }
+    SRM_API_Metadata_Client_Setting__mdt = {
+      Additional_Metadata_Types__c = "NoAccess"
+      Api_Version__c = "NoAccess"
+      Describe_Metadata_Exception__c = "NoAccess"
+      Endpoint__c = "NoAccess"
+      List_Metadata_Exception__c = "NoAccess"
+    }
+    SRM_CRM_Sprint__c = {
+      Number_of_Tickets_Deployed_to_Integratio__c = "NoAccess"
+      Total_Level_of_Effort_hours__c = "NoAccess"
+      Total_Metadata_Members__c = "NoAccess"
+      Total_Number_of_Tickets__c = "NoAccess"
+    }
+    SRM_Development_Task__c = {
+      Case_Subject__c = "NoAccess"
+      Case__c = "NoAccess"
+      Description__c = "NoAccess"
+      Due_Date__c = "NoAccess"
+      Status__c = "NoAccess"
+    }
+    SRM_Jira_Ticket__c = {
+      Approx_Deployment_Date__c = "NoAccess"
+      Case_Number__c = "NoAccess"
+      Case_Subject__c = "NoAccess"
+      Case__c = "NoAccess"
+      Connected_Org__c = "NoAccess"
+      Deployed_Apex_Names__c = "NoAccess"
+      Deployed_to_Integration_Environment__c = "NoAccess"
+      Fire_New_Apex_Notification__c = "NoAccess"
+      Friendly_description_of_Apex_changes__c = "NoAccess"
+      Generate_Session_ID__c = "NoAccess"
+      Git_Pull_Request_URL__c = "NoAccess"
+      Level_of_Effort_hours__c = "NoAccess"
+      Metadata_Members_to_be_Created__c = "NoAccess"
+      Metadata_Members_to_be_Updated__c = "NoAccess"
+      Owner__c = "NoAccess"
+      Rebased_By__c = "NoAccess"
+      Status__c = "NoAccess"
+      Title__c = "NoAccess"
+      Total_Metadata_Members__c = "NoAccess"
+      View_in_Jira__c = "NoAccess"
+    }
+    SRM_Metadata_Conflict_Warning__mdt = {
+      Friendly_Message__c = "NoAccess"
+      SRM_Field__c = "NoAccess"
+      SRM_Object__c = "NoAccess"
+      Warning__c = "NoAccess"
+    }
+    SRM_Metadata__c = {
+      Deployment_Type__c = "NoAccess"
+      Referenced_in__c = "NoAccess"
+      Referenced_in_another_ticket__c = "NoAccess"
+      Sprint_Id__c = "NoAccess"
+      Type__c = "NoAccess"
+    }
+    SRM_Package_XML_Setting__mdt = {
+      Api_Version__c = "NoAccess"
+      XML_Namespace__c = "NoAccess"
+    }
+    Seller = {
+      ActiveFromDate = "ReadWrite"
+      ActiveToDate = "ReadWrite"
+      SalesAmount = "ReadWrite"
+      SellerTier = "ReadWrite"
+      SellerType = "ReadWrite"
+    }
+    ServiceResource = {
+      AccountId = "ReadWrite"
+      Description = "ReadWrite"
+      IsActive = "ReadWrite"
+      LocationId = "ReadWrite"
+    }
+    ServiceResourceSkill = {
+      EffectiveEndDate = "ReadWrite"
+      SkillLevel = "ReadWrite"
+    }
+    SkillRequirement = {
+      SkillLevel = "NoAccess"
+    }
+    SocialPersona = {
+      SourceApp = "ReadWrite"
+    }
+    Solution = {
+      IsPublished = "ReadWrite"
+      IsPublishedInPublicKb = "ReadWrite"
+      SolutionNote = "ReadWrite"
+    }
+    Task = {
+      ActivityDate = "ReadWrite"
+      Description = "ReadWrite"
+      IsVisibleInSelfService = "NoAccess"
+      Type = "NoAccess"
+      WhatId = "ReadWrite"
+      WhoId = "ReadWrite"
+    }
+    Trigger_Context_Status__mdt = {
+      Enable_After_Delete__c = "NoAccess"
+      Enable_After_Insert__c = "NoAccess"
+      Enable_After_Undelete__c = "NoAccess"
+      Enable_After_Update__c = "NoAccess"
+      Enable_Before_Delete__c = "NoAccess"
+      Enable_Before_Insert__c = "NoAccess"
+      Enable_Before_Update__c = "NoAccess"
+      instantiate_type__c = "NoAccess"
+      related_class__c = "NoAccess"
+      the_handler_to_call__c = "NoAccess"
+      the_instance__c = "NoAccess"
+    }
+    Trigger_Handler__mdt = {
+      Class_Name__c = "NoAccess"
+    }
+    Zendesk_Ticket__c = {
+      Integration_Status__c = "ReadWrite"
+    }
+    nebc__Log_Setting__mdt = {
+      nebc__Level__c = "ReadWrite"
+      nebc__User_Id__c = "ReadWrite"
+    }
+    nebc__Test_Record_Generator_Field__mdt = {
+      nebc__Apex_Class_Parameters__c = "ReadWrite"
+      nebc__Apex_Class__c = "ReadWrite"
+      nebc__Value__c = "ReadWrite"
+    }
+    nebc__Test_Record_Generator__mdt = {
+      nebc__Inherits_From_Variant__c = "ReadWrite"
+      nebc__Parameters__c = "ReadWrite"
+      nebc__Variant__c = "ReadWrite"
+    }
+    nebc__Trigger_Handler__mdt = {
+      class_to_call__c = "NoAccess"
+      nebc__Active__c = "ReadWrite"
+      nebc__Description__c = "ReadWrite"
+      nebc__Parameters__c = "ReadWrite"
+    }
+    sonar__Analysis_Object__c = {
+      sonar__Apex_Job_Id__c = "ReadWrite"
+      sonar__Date__c = "ReadWrite"
+      sonar__Records_Count__c = "ReadWrite"
+      sonar__SObject_Name__c = "ReadWrite"
+      sonar__Status__c = "ReadWrite"
+    }
+    sonar__Analysis__c = {
+      sonar__Status__c = "ReadWrite"
+    }
+    sonar__Field_Details__c = {
+      sonar__Analysis_Object__c = "ReadWrite"
+      sonar__Created_By__c = "ReadWrite"
+      sonar__Created_Date__c = "ReadWrite"
+      sonar__Field_Label__c = "ReadWrite"
+      sonar__Field_Type__c = "ReadWrite"
+      sonar__Insight_Record_Count__c = "ReadWrite"
+      sonar__Insights_Count__c = "ReadWrite"
+      sonar__Is_Custom__c = "ReadWrite"
+      sonar__Modified_By__c = "ReadWrite"
+      sonar__Modified_Date__c = "ReadWrite"
+      sonar__Populated_Percentage__c = "ReadWrite"
+      sonar__Populated_Records__c = "ReadWrite"
+      sonar__Records_Count__c = "ReadWrite"
+      sonar__References__c = "ReadWrite"
+      sonar__SObject_API_Name__c = "ReadWrite"
+    }
+    sonar__Insight__c = {
+      sonar__Field_Value__c = "ReadWrite"
+      sonar__Populated_Frequency__c = "ReadWrite"
+      sonar__Records_Count__c = "ReadWrite"
+    }
+    sonar__SObject__c = {
+      sonar__Api_Name__c = "ReadWrite"
+      sonar__Fields_Count__c = "ReadWrite"
+      sonar__Fields_Remaining__c = "ReadWrite"
+      sonar__Last_Analyzed_Date__c = "ReadWrite"
+      sonar__Records_Count__c = "ReadWrite"
+    }
+  }
+}

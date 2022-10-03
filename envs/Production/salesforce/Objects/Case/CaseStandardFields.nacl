@@ -377,4 +377,16 @@ type salesforce.Case {
     
     _hidden_value = true
   }
+  salesforce.Checkbox GHO__c {
+    apiName = "Case.GHO__c"
+    defaultValue = false
+    externalId = false
+    label = "GHO"
+    trackFeedHistory = false
+    trackHistory = false
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }
