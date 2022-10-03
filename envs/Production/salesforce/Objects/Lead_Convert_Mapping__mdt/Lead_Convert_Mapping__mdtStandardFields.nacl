@@ -1,0 +1,70 @@
+type salesforce.Lead_Convert_Mapping__mdt {
+  serviceid Id {
+    apiName = "Lead_Convert_Mapping__mdt.Id"
+    label = "Custom Metadata Record ID"
+    queryable = true
+    _hidden_value = true
+    updateable = false
+    createable = false
+  }
+  salesforce.Text DeveloperName {
+    apiName = "Lead_Convert_Mapping__mdt.DeveloperName"
+    length = 40
+    _required = true
+    label = "Custom Metadata Record Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text MasterLabel {
+    apiName = "Lead_Convert_Mapping__mdt.MasterLabel"
+    length = 40
+    _required = true
+    label = "Label"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text NamespacePrefix {
+    apiName = "Lead_Convert_Mapping__mdt.NamespacePrefix"
+    length = 15
+    label = "Namespace Prefix"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text Label {
+    apiName = "Lead_Convert_Mapping__mdt.Label"
+    length = 40
+    label = "Label"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text QualifiedApiName {
+    apiName = "Lead_Convert_Mapping__mdt.QualifiedApiName"
+    length = 70
+    label = "Qualified API Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  topicsForObjects = {
+    enableTopics = false
+  }
+}

@@ -726,5 +726,12 @@ salesforce.Profile Admin {
       sonar__Last_Analyzed_Date__c = "ReadWrite"
       sonar__Records_Count__c = "ReadWrite"
     }
+    Session__c = {
+      Target_Audience__c = "ReadWrite"
+    }
+    Lead_Convert_Mapping__mdt = {
+      Source_Field__c = "NoAccess"
+      Target_Field__c = "NoAccess"
+    }
   }
 }

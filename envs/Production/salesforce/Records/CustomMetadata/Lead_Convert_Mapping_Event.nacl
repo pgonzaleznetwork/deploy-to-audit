@@ -1,0 +1,17 @@
+salesforce.CustomMetadata Lead_Convert_Mapping_Event@uuv {
+  label = "Event"
+  protected = false
+  fullName = "Lead_Convert_Mapping.Event"
+  values = [
+    {
+      field = "Source_Field__c"
+      value = "Lead_Event__c"
+      type = "xsd:string"
+    },
+    {
+      field = "Target_Field__c"
+      value = "Event__c"
+      type = "xsd:string"
+    },
+  ]
+}
